@@ -1,0 +1,2 @@
+G4GDecay3::GetThreeBodyMomenta: 100 or more loops in momentum magnitude calculation 
+ generateSCMmuonAbsorption: GetThreeBodyMomenta() failed for 111 dibaryon

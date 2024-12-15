@@ -1,0 +1,1959 @@
+starting ICSIM batch job.
+/home/skunori/MuonX/g4sim/ICSIMtest/icsim_02_02/hpccBatch/BJOBS/bj016
+macfile=/home/skunori/MuonX/g4sim/ICSIMtest/icsim_02_02/hpccBatch/macfiles/v02/batch_run_C1RAA_01.mac
+File has been accessed
+modules loaded
+which python...  to check conda...  it should be off
+/usr/bin/python
+cry loaded
+geant4.sh executed
+g4 make stuff
+ICSIM batch- job directory.
+/home/skunori/MuonX/g4sim/ICSIMtest/icsim_02_02/hpccBatch/BJOBS/bj016/ROOTFILES
+initializing MuonTree...   macFileName:/home/skunori/MuonX/g4sim/ICSIMtest/icsim_02_02/hpccBatch/macfiles/v02/batch_run_C1RAA_01.mac
+ 
+=== Parameters from /home/skunori/MuonX/g4sim/ICSIMtest/icsim_02_02/hpccBatch/macfiles/v02/batch_run_C1RAA_01.mac (MuonTree::readMacFile) ===
+MuonListPre => muon
+cairnRotZ => 0.0
+camera1Xpos => -50.0
+camera1Zpos => -2.5
+cameraWidth => 5.0
+chamberPosX => 0.0
+chamberPosY => 0.0
+chamberPosZ => 2.0
+chamberSizeX => 4.0
+chamberSizeY => 4.0
+chamberSizeZ => 4.0
+createMuonList => false
+createNtuple => true
+cryAzimuthalAngleMax => 31.0
+cryAzimuthalAngleMin => -31.0
+cryDZ => 0.5
+cryElevationAngleMax => 20.0
+cryElevationAngleMin => 0.0
+cryPcut => 2000.0
+cryWorldR => 70.0
+cryWorldZ => 11.0
+cryX => -50.00
+cryY => 0.00
+cryZ => -4.5
+jobName => ICv2
+materialCairn => Rock2
+materialChamber => G4_AIR
+materialHill => Rock1
+materialPassage => G4_AIR
+miniNtuple => ture
+monitorEvents => 1000
+numberOfEvents => 1000
+passagePosX => 0.0
+passagePosY => 12.0
+passagePosZ => 1.0
+passageSizeX => 2.0
+passageSizeY => 20.0
+passageSizeZ => 2.0
+pgunP => 20.0
+pgunParticle => mu+
+pgunX => -30.0
+pgunXdir => -1.0
+pgunY => 0.0
+pgunYdir => 0.01
+pgunZ => -6.0
+pgunZdir => 0.01
+rootPre => mc
+runConfig => C1RAA
+runNumber => 01
+runSeq => 00
+trackMuonOnly => :
+trackStopZ => -7.0
+useParticleGun => false
+a=-numberOfEvents   size:15
+MuonListPre => muon
+cairnRotZ => 0.0
+camera1Xpos => -50.0
+camera1Zpos => -2.5
+cameraWidth => 5.0
+chamberPosX => 0.0
+chamberPosY => 0.0
+chamberPosZ => 2.0
+chamberSizeX => 4.0
+chamberSizeY => 4.0
+chamberSizeZ => 4.0
+createMuonList => false
+createNtuple => true
+cryAzimuthalAngleMax => 31.0
+cryAzimuthalAngleMin => -31.0
+cryDZ => 0.5
+cryElevationAngleMax => 20.0
+cryElevationAngleMin => 0.0
+cryPcut => 2000.0
+cryWorldR => 70.0
+cryWorldZ => 11.0
+cryX => -50.00
+cryY => 0.00
+cryZ => -4.5
+jobName => ICv2
+materialCairn => Rock2
+materialChamber => G4_AIR
+materialHill => Rock1
+materialPassage => G4_AIR
+miniNtuple => ture
+monitorEvents => 1000
+numberOfEvents => 1000
+MuonTree::setParam:  key is found.
+MuonTree::setParam: (overwrite)  kew=numberOfEvents  val=2000000
+a=-runNumber   size:10
+MuonListPre => muon
+cairnRotZ => 0.0
+camera1Xpos => -50.0
+camera1Zpos => -2.5
+cameraWidth => 5.0
+chamberPosX => 0.0
+chamberPosY => 0.0
+chamberPosZ => 2.0
+chamberSizeX => 4.0
+chamberSizeY => 4.0
+chamberSizeZ => 4.0
+createMuonList => false
+createNtuple => true
+cryAzimuthalAngleMax => 31.0
+cryAzimuthalAngleMin => -31.0
+cryDZ => 0.5
+cryElevationAngleMax => 20.0
+cryElevationAngleMin => 0.0
+cryPcut => 2000.0
+cryWorldR => 70.0
+cryWorldZ => 11.0
+cryX => -50.00
+cryY => 0.00
+cryZ => -4.5
+jobName => ICv2
+materialCairn => Rock2
+materialChamber => G4_AIR
+materialHill => Rock1
+materialPassage => G4_AIR
+miniNtuple => ture
+monitorEvents => 1000
+numberOfEvents => 2000000
+passagePosX => 0.0
+passagePosY => 12.0
+passagePosZ => 1.0
+passageSizeX => 2.0
+passageSizeY => 20.0
+passageSizeZ => 2.0
+pgunP => 20.0
+pgunParticle => mu+
+pgunX => -30.0
+pgunXdir => -1.0
+pgunY => 0.0
+pgunYdir => 0.01
+pgunZ => -6.0
+pgunZdir => 0.01
+rootPre => mc
+runConfig => C1RAA
+runNumber => 01
+MuonTree::setParam:  key is found.
+MuonTree::setParam: (overwrite)  kew=runNumber  val=016
+a=-runSeq   size:7
+MuonListPre => muon
+cairnRotZ => 0.0
+camera1Xpos => -50.0
+camera1Zpos => -2.5
+cameraWidth => 5.0
+chamberPosX => 0.0
+chamberPosY => 0.0
+chamberPosZ => 2.0
+chamberSizeX => 4.0
+chamberSizeY => 4.0
+chamberSizeZ => 4.0
+createMuonList => false
+createNtuple => true
+cryAzimuthalAngleMax => 31.0
+cryAzimuthalAngleMin => -31.0
+cryDZ => 0.5
+cryElevationAngleMax => 20.0
+cryElevationAngleMin => 0.0
+cryPcut => 2000.0
+cryWorldR => 70.0
+cryWorldZ => 11.0
+cryX => -50.00
+cryY => 0.00
+cryZ => -4.5
+jobName => ICv2
+materialCairn => Rock2
+materialChamber => G4_AIR
+materialHill => Rock1
+materialPassage => G4_AIR
+miniNtuple => ture
+monitorEvents => 1000
+numberOfEvents => 2000000
+passagePosX => 0.0
+passagePosY => 12.0
+passagePosZ => 1.0
+passageSizeX => 2.0
+passageSizeY => 20.0
+passageSizeZ => 2.0
+pgunP => 20.0
+pgunParticle => mu+
+pgunX => -30.0
+pgunXdir => -1.0
+pgunY => 0.0
+pgunYdir => 0.01
+pgunZ => -6.0
+pgunZdir => 0.01
+rootPre => mc
+runConfig => C1RAA
+runNumber => 016
+runSeq => 00
+MuonTree::setParam:  key is found.
+MuonTree::setParam: (overwrite)  kew=runSeq  val=77
+a=-createNtuple   size:13
+MuonListPre => muon
+cairnRotZ => 0.0
+camera1Xpos => -50.0
+camera1Zpos => -2.5
+cameraWidth => 5.0
+chamberPosX => 0.0
+chamberPosY => 0.0
+chamberPosZ => 2.0
+chamberSizeX => 4.0
+chamberSizeY => 4.0
+chamberSizeZ => 4.0
+createMuonList => false
+createNtuple => true
+MuonTree::setParam:  key is found.
+MuonTree::setParam: (overwrite)  kew=createNtuple  val=false
+a=-chamberSizeX   size:13
+MuonListPre => muon
+cairnRotZ => 0.0
+camera1Xpos => -50.0
+camera1Zpos => -2.5
+cameraWidth => 5.0
+chamberPosX => 0.0
+chamberPosY => 0.0
+chamberPosZ => 2.0
+chamberSizeX => 4.0
+MuonTree::setParam:  key is found.
+MuonTree::setParam: (overwrite)  kew=chamberSizeX  val=4.0
+a=-chamberSizeY   size:13
+MuonListPre => muon
+cairnRotZ => 0.0
+camera1Xpos => -50.0
+camera1Zpos => -2.5
+cameraWidth => 5.0
+chamberPosX => 0.0
+chamberPosY => 0.0
+chamberPosZ => 2.0
+chamberSizeX => 4.0
+chamberSizeY => 4.0
+MuonTree::setParam:  key is found.
+MuonTree::setParam: (overwrite)  kew=chamberSizeY  val=4.0
+a=-chamberSizeZ   size:13
+MuonListPre => muon
+cairnRotZ => 0.0
+camera1Xpos => -50.0
+camera1Zpos => -2.5
+cameraWidth => 5.0
+chamberPosX => 0.0
+chamberPosY => 0.0
+chamberPosZ => 2.0
+chamberSizeX => 4.0
+chamberSizeY => 4.0
+chamberSizeZ => 4.0
+MuonTree::setParam:  key is found.
+MuonTree::setParam: (overwrite)  kew=chamberSizeZ  val=4.0
+a=-passagePosY   size:12
+MuonListPre => muon
+cairnRotZ => 0.0
+camera1Xpos => -50.0
+camera1Zpos => -2.5
+cameraWidth => 5.0
+chamberPosX => 0.0
+chamberPosY => 0.0
+chamberPosZ => 2.0
+chamberSizeX => 4.0
+chamberSizeY => 4.0
+chamberSizeZ => 4.0
+createMuonList => false
+createNtuple => false
+cryAzimuthalAngleMax => 31.0
+cryAzimuthalAngleMin => -31.0
+cryDZ => 0.5
+cryElevationAngleMax => 20.0
+cryElevationAngleMin => 0.0
+cryPcut => 2000.0
+cryWorldR => 70.0
+cryWorldZ => 11.0
+cryX => -50.00
+cryY => 0.00
+cryZ => -4.5
+jobName => ICv2
+materialCairn => Rock2
+materialChamber => G4_AIR
+materialHill => Rock1
+materialPassage => G4_AIR
+miniNtuple => ture
+monitorEvents => 1000
+numberOfEvents => 2000000
+passagePosX => 0.0
+passagePosY => 12.0
+MuonTree::setParam:  key is found.
+MuonTree::setParam: (overwrite)  kew=passagePosY  val=12.0
+millis 1638854764919
+micros 1638854764919078
+t1=163885476   t2=4919078
+
+--------- Ranecu engine status ---------
+ Initial seed (index) = 0
+ Current couple of seeds = 4919078, 4927212
+----------------------------------------
+
+**************************************************************
+ Geant4 version Name: geant4-10-04-patch-02 [MT]   (25-May-2018)
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+<<< Geant4 Physics List simulation engine: FTFP_BERT 2.0
+
+PrimaryGeneratorMessenger::PrimaryGeneratorMessenger is called...
+Using Root
+G4Material WARNING: duplicate name of material liquidArgon
+G4Material WARNING: duplicate name of material Galactic
+
+***** Table : Nb of materials = 27 *****
+
+ Material:   G4_AIR    density:  1.205 mg/cm3  RadL: 303.921 m    Nucl.Int.Length: 710.095 m  
+                       Imean:  85.700 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:   0.01 %  ElmAbundance   0.02 % 
+
+   --->  Element: N (N)   Z =  7.0   N =    14   A = 14.007 g/mole
+         --->  Isotope:   N14   Z =  7   N =  14   A =  14.00 g/mole   abundance: 99.632 %
+         --->  Isotope:   N15   Z =  7   N =  15   A =  15.00 g/mole   abundance:  0.368 %
+          ElmMassFraction:  75.53 %  ElmAbundance  78.44 % 
+
+   --->  Element: O (O)   Z =  8.0   N =    16   A = 15.999 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  23.18 %  ElmAbundance  21.07 % 
+
+   --->  Element: Ar (Ar)   Z = 18.0   N =    40   A = 39.948 g/mole
+         --->  Isotope:  Ar36   Z = 18   N =  36   A =  35.97 g/mole   abundance:  0.337 %
+         --->  Isotope:  Ar38   Z = 18   N =  38   A =  37.96 g/mole   abundance:  0.063 %
+         --->  Isotope:  Ar40   Z = 18   N =  40   A =  39.96 g/mole   abundance: 99.600 %
+          ElmMassFraction:   1.28 %  ElmAbundance   0.47 % 
+
+
+ Material: liquidArgon    density:  1.390 g/cm3   RadL:  14.065 cm   Nucl.Int.Length:  86.078 cm 
+                       Imean: 188.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Ar (Ar)   Z = 18.0   N =    40   A = 39.950 g/mole
+         --->  Isotope:  Ar36   Z = 18   N =  36   A =  35.97 g/mole   abundance:  0.337 %
+         --->  Isotope:  Ar38   Z = 18   N =  38   A =  37.96 g/mole   abundance:  0.063 %
+         --->  Isotope:  Ar40   Z = 18   N =  40   A =  39.96 g/mole   abundance: 99.600 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:     iron    density:  7.894 g/cm3   RadL:   1.753 cm   Nucl.Int.Length:  16.948 cm 
+                       Imean: 286.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Fe (Fe)   Z = 26.0   N =    56   A = 55.850 g/mole
+         --->  Isotope:  Fe54   Z = 26   N =  54   A =  53.94 g/mole   abundance:  5.845 %
+         --->  Isotope:  Fe56   Z = 26   N =  56   A =  55.93 g/mole   abundance: 91.754 %
+         --->  Isotope:  Fe57   Z = 26   N =  57   A =  56.94 g/mole   abundance:  2.119 %
+         --->  Isotope:  Fe58   Z = 26   N =  58   A =  57.93 g/mole   abundance:  0.282 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: tungsten    density: 19.300 g/cm3   RadL:   3.504 mm   Nucl.Int.Length:  10.312 cm 
+                       Imean: 727.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: W (W)   Z = 74.0   N =   184   A = 183.850 g/mole
+         --->  Isotope:  W180   Z = 74   N = 180   A = 179.95 g/mole   abundance:  0.120 %
+         --->  Isotope:  W182   Z = 74   N = 182   A = 181.95 g/mole   abundance: 26.500 %
+         --->  Isotope:  W183   Z = 74   N = 183   A = 182.95 g/mole   abundance: 14.310 %
+         --->  Isotope:  W184   Z = 74   N = 184   A = 183.95 g/mole   abundance: 30.640 %
+         --->  Isotope:  W186   Z = 74   N = 186   A = 185.95 g/mole   abundance: 28.430 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:   copper    density:  8.960 g/cm3   RadL:   1.435 cm   Nucl.Int.Length:  15.587 cm 
+                       Imean: 322.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Cu (Cu)   Z = 29.0   N =    64   A = 63.540 g/mole
+         --->  Isotope:  Cu63   Z = 29   N =  63   A =  62.93 g/mole   abundance: 69.170 %
+         --->  Isotope:  Cu65   Z = 29   N =  65   A =  64.93 g/mole   abundance: 30.830 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:     lead    density: 11.340 g/cm3   RadL:   5.617 mm   Nucl.Int.Length:  18.263 cm 
+                       Imean: 823.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Pb (Pb)   Z = 82.0   N =   207   A = 207.190 g/mole
+         --->  Isotope: Pb204   Z = 82   N = 204   A = 203.97 g/mole   abundance:  1.400 %
+         --->  Isotope: Pb206   Z = 82   N = 206   A = 205.97 g/mole   abundance: 24.100 %
+         --->  Isotope: Pb207   Z = 82   N = 207   A = 206.98 g/mole   abundance: 22.100 %
+         --->  Isotope: Pb208   Z = 82   N = 208   A = 207.98 g/mole   abundance: 52.400 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: Galactic    density:  0.000 kg/m3   RadL: 204727512.315 pc   Nucl.Int.Length: 113427275.267 pc 
+                       Imean:  19.200 eV   temperature:   2.73 K  pressure:   0.00 atm
+
+   --->  Element: H (H)   Z =  1.0   N =     1   A =  1.010 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: Scintillator    density:  1.032 g/cm3   RadL:  42.549 cm   Nucl.Int.Length:  69.955 cm 
+                       Imean:  64.684 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Carbon (C)   Z =  6.0   N =    12   A = 12.010 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  91.45 %  ElmAbundance  47.37 % 
+
+   --->  Element: Hydrogen (H)   Z =  1.0   N =     1   A =  1.010 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:   8.55 %  ElmAbundance  52.63 % 
+
+
+ Material:    Water    density:  1.000 g/cm3   RadL:  36.092 cm   Nucl.Int.Length:  75.356 cm 
+                       Imean:  68.998 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Hydrogen (H)   Z =  1.0   N =     1   A =  1.010 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:  11.21 %  ElmAbundance  66.67 % 
+
+   --->  Element: Oxygen (O)   Z =  8.0   N =    16   A = 16.000 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  88.79 %  ElmAbundance  33.33 % 
+
+
+ Material: Limestone    density:  2.600 g/cm3   RadL:   9.240 cm   Nucl.Int.Length:  37.421 cm 
+                       Imean: 123.236 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Calcium (Ca)   Z = 20.0   N =    40   A = 40.078 g/mole
+         --->  Isotope:  Ca40   Z = 20   N =  40   A =  39.96 g/mole   abundance: 96.941 %
+         --->  Isotope:  Ca42   Z = 20   N =  42   A =  41.96 g/mole   abundance:  0.647 %
+         --->  Isotope:  Ca43   Z = 20   N =  43   A =  42.96 g/mole   abundance:  0.135 %
+         --->  Isotope:  Ca44   Z = 20   N =  44   A =  43.96 g/mole   abundance:  2.086 %
+         --->  Isotope:  Ca46   Z = 20   N =  46   A =  45.95 g/mole   abundance:  0.004 %
+         --->  Isotope:  Ca48   Z = 20   N =  48   A =  47.95 g/mole   abundance:  0.187 %
+          ElmMassFraction:  40.04 %  ElmAbundance  20.00 % 
+
+   --->  Element: Carbon (C)   Z =  6.0   N =    12   A = 12.010 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  12.00 %  ElmAbundance  20.00 % 
+
+   --->  Element: Oxygen (O)   Z =  8.0   N =    16   A = 15.999 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  47.96 %  ElmAbundance  60.00 % 
+
+
+ Material:    G4_Fe    density:  7.874 g/cm3   RadL:   1.757 cm   Nucl.Int.Length:  16.990 cm 
+                       Imean: 286.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Fe (Fe)   Z = 26.0   N =    56   A = 55.845 g/mole
+         --->  Isotope:  Fe54   Z = 26   N =  54   A =  53.94 g/mole   abundance:  5.845 %
+         --->  Isotope:  Fe56   Z = 26   N =  56   A =  55.93 g/mole   abundance: 91.754 %
+         --->  Isotope:  Fe57   Z = 26   N =  57   A =  56.94 g/mole   abundance:  2.119 %
+         --->  Isotope:  Fe58   Z = 26   N =  58   A =  57.93 g/mole   abundance:  0.282 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_Pb    density: 11.350 g/cm3   RadL:   5.613 mm   Nucl.Int.Length:  18.248 cm 
+                       Imean: 823.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Pb (Pb)   Z = 82.0   N =   207   A = 207.217 g/mole
+         --->  Isotope: Pb204   Z = 82   N = 204   A = 203.97 g/mole   abundance:  1.400 %
+         --->  Isotope: Pb206   Z = 82   N = 206   A = 205.97 g/mole   abundance: 24.100 %
+         --->  Isotope: Pb207   Z = 82   N = 207   A = 206.98 g/mole   abundance: 22.100 %
+         --->  Isotope: Pb208   Z = 82   N = 208   A = 207.98 g/mole   abundance: 52.400 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: G4_PLASTIC_SC_VINYLTOLUENE    density:  1.032 g/cm3   RadL:  42.544 cm   Nucl.Int.Length:  69.969 cm 
+                       Imean:  64.700 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  91.47 %  ElmAbundance  47.37 % 
+
+   --->  Element: H (H)   Z =  1.0   N =     1   A =  1.008 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:   8.53 %  ElmAbundance  52.63 % 
+
+
+ Material:     G4_H    density:  0.084 kg/m3   RadL:   7.528 km   Nucl.Int.Length:   4.179 km 
+                       Imean:  19.200 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: H (H)   Z =  1.0   N =     1   A =  1.008 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:     G4_C    density:  2.000 g/cm3   RadL:  21.349 cm   Nucl.Int.Length:  40.077 cm 
+                       Imean:  81.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:     G4_O    density:  1.332 mg/cm3  RadL: 257.138 m    Nucl.Int.Length: 662.356 m  
+                       Imean:  95.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: O (O)   Z =  8.0   N =    16   A = 15.999 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_Al    density:  2.699 g/cm3   RadL:   8.896 cm   Nucl.Int.Length:  38.894 cm 
+                       Imean: 166.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Al (Al)   Z = 13.0   N =    27   A = 26.982 g/mole
+         --->  Isotope:  Al27   Z = 13   N =  27   A =  26.98 g/mole   abundance: 100.000 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_Si    density:  2.330 g/cm3   RadL:   9.366 cm   Nucl.Int.Length:  45.660 cm 
+                       Imean: 173.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Si (Si)   Z = 14.0   N =    28   A = 28.085 g/mole
+         --->  Isotope:  Si28   Z = 14   N =  28   A =  27.98 g/mole   abundance: 92.230 %
+         --->  Isotope:  Si29   Z = 14   N =  29   A =  28.98 g/mole   abundance:  4.683 %
+         --->  Isotope:  Si30   Z = 14   N =  30   A =  29.97 g/mole   abundance:  3.087 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:     G4_K    density: 862.000 mg/cm3  RadL:  20.087 cm   Nucl.Int.Length:   1.378 m  
+                       Imean: 190.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: K (K)   Z = 19.0   N =    39   A = 39.098 g/mole
+         --->  Isotope:   K39   Z = 19   N =  39   A =  38.96 g/mole   abundance: 93.258 %
+         --->  Isotope:   K40   Z = 19   N =  40   A =  39.96 g/mole   abundance:  0.012 %
+         --->  Isotope:   K41   Z = 19   N =  41   A =  40.96 g/mole   abundance:  6.730 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_Ca    density:  1.550 g/cm3   RadL:  10.415 cm   Nucl.Int.Length:  77.275 cm 
+                       Imean: 191.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Ca (Ca)   Z = 20.0   N =    40   A = 40.078 g/mole
+         --->  Isotope:  Ca40   Z = 20   N =  40   A =  39.96 g/mole   abundance: 96.941 %
+         --->  Isotope:  Ca42   Z = 20   N =  42   A =  41.96 g/mole   abundance:  0.647 %
+         --->  Isotope:  Ca43   Z = 20   N =  43   A =  42.96 g/mole   abundance:  0.135 %
+         --->  Isotope:  Ca44   Z = 20   N =  44   A =  43.96 g/mole   abundance:  2.086 %
+         --->  Isotope:  Ca46   Z = 20   N =  46   A =  45.95 g/mole   abundance:  0.004 %
+         --->  Isotope:  Ca48   Z = 20   N =  48   A =  47.95 g/mole   abundance:  0.187 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_Na    density: 971.000 mg/cm3  RadL:  28.565 cm   Nucl.Int.Length:   1.025 m  
+                       Imean: 149.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Na (Na)   Z = 11.0   N =    23   A = 22.990 g/mole
+         --->  Isotope:  Na23   Z = 11   N =  23   A =  22.99 g/mole   abundance: 100.000 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_Mg    density:  1.740 g/cm3   RadL:  14.386 cm   Nucl.Int.Length:  58.266 cm 
+                       Imean: 156.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Mg (Mg)   Z = 12.0   N =    24   A = 24.305 g/mole
+         --->  Isotope:  Mg24   Z = 12   N =  24   A =  23.98 g/mole   abundance: 78.990 %
+         --->  Isotope:  Mg25   Z = 12   N =  25   A =  24.99 g/mole   abundance: 10.000 %
+         --->  Isotope:  Mg26   Z = 12   N =  26   A =  25.98 g/mole   abundance: 11.010 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_Sc    density:  2.989 g/cm3   RadL:   5.535 cm   Nucl.Int.Length:  41.636 cm 
+                       Imean: 216.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Sc (Sc)   Z = 21.0   N =    45   A = 44.956 g/mole
+         --->  Isotope:  Sc45   Z = 21   N =  45   A =  44.96 g/mole   abundance: 100.000 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: liquidArgon    density:  1.390 g/cm3   RadL:  14.065 cm   Nucl.Int.Length:  86.078 cm 
+                       Imean: 188.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Ar (Ar)   Z = 18.0   N =    40   A = 39.950 g/mole
+         --->  Isotope:  Ar36   Z = 18   N =  36   A =  35.97 g/mole   abundance:  0.337 %
+         --->  Isotope:  Ar38   Z = 18   N =  38   A =  37.96 g/mole   abundance:  0.063 %
+         --->  Isotope:  Ar40   Z = 18   N =  40   A =  39.96 g/mole   abundance: 99.600 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: Galactic    density:  0.000 kg/m3   RadL: 204727512.315 pc   Nucl.Int.Length: 113427275.267 pc 
+                       Imean:  19.200 eV   temperature:   2.73 K  pressure:   0.00 atm
+
+   --->  Element: H (H)   Z =  1.0   N =     1   A =  1.010 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    Rock1    density:  2.680 g/cm3   RadL:   9.489 cm   Nucl.Int.Length:  36.550 cm 
+                       Imean: 132.009 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Oxygen (O)   Z =  8.0   N =    16   A = 16.000 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  48.01 %  ElmAbundance  63.25 % 
+
+   --->  Element: Silicon (Si)   Z = 14.0   N =    28   A = 28.085 g/mole
+         --->  Isotope:  Si28   Z = 14   N =  28   A =  27.98 g/mole   abundance: 92.230 %
+         --->  Isotope:  Si29   Z = 14   N =  29   A =  28.98 g/mole   abundance:  4.683 %
+         --->  Isotope:  Si30   Z = 14   N =  30   A =  29.97 g/mole   abundance:  3.087 %
+          ElmMassFraction:  27.72 %  ElmAbundance  20.80 % 
+
+   --->  Element: Aluminium (Al)   Z = 13.0   N =    27   A = 26.982 g/mole
+         --->  Isotope:  Al27   Z = 13   N =  27   A =  26.98 g/mole   abundance: 100.000 %
+          ElmMassFraction:   8.13 %  ElmAbundance   6.35 % 
+
+   --->  Element: Iron (Fe)   Z = 26.0   N =    56   A = 55.845 g/mole
+         --->  Isotope:  Fe54   Z = 26   N =  54   A =  53.94 g/mole   abundance:  5.845 %
+         --->  Isotope:  Fe56   Z = 26   N =  56   A =  55.93 g/mole   abundance: 91.754 %
+         --->  Isotope:  Fe57   Z = 26   N =  57   A =  56.94 g/mole   abundance:  2.119 %
+         --->  Isotope:  Fe58   Z = 26   N =  58   A =  57.93 g/mole   abundance:  0.282 %
+          ElmMassFraction:   5.00 %  ElmAbundance   1.89 % 
+
+   --->  Element: Calcium (Ca)   Z = 20.0   N =    40   A = 40.078 g/mole
+         --->  Isotope:  Ca40   Z = 20   N =  40   A =  39.96 g/mole   abundance: 96.941 %
+         --->  Isotope:  Ca42   Z = 20   N =  42   A =  41.96 g/mole   abundance:  0.647 %
+         --->  Isotope:  Ca43   Z = 20   N =  43   A =  42.96 g/mole   abundance:  0.135 %
+         --->  Isotope:  Ca44   Z = 20   N =  44   A =  43.96 g/mole   abundance:  2.086 %
+         --->  Isotope:  Ca46   Z = 20   N =  46   A =  45.95 g/mole   abundance:  0.004 %
+         --->  Isotope:  Ca48   Z = 20   N =  48   A =  47.95 g/mole   abundance:  0.187 %
+          ElmMassFraction:   3.63 %  ElmAbundance   1.91 % 
+
+   --->  Element: Sodium (Na)   Z = 11.0   N =    23   A = 22.990 g/mole
+         --->  Isotope:  Na23   Z = 11   N =  23   A =  22.99 g/mole   abundance: 100.000 %
+          ElmMassFraction:   2.83 %  ElmAbundance   2.59 % 
+
+   --->  Element: Potasium (K)   Z = 19.0   N =    39   A = 39.098 g/mole
+         --->  Isotope:   K39   Z = 19   N =  39   A =  38.96 g/mole   abundance: 93.258 %
+         --->  Isotope:   K40   Z = 19   N =  40   A =  39.96 g/mole   abundance:  0.012 %
+         --->  Isotope:   K41   Z = 19   N =  41   A =  40.96 g/mole   abundance:  6.730 %
+          ElmMassFraction:   2.59 %  ElmAbundance   1.40 % 
+
+   --->  Element: Magnesium (Mg)   Z = 12.0   N =    24   A = 24.305 g/mole
+         --->  Isotope:  Mg24   Z = 12   N =  24   A =  23.98 g/mole   abundance: 78.990 %
+         --->  Isotope:  Mg25   Z = 12   N =  25   A =  24.99 g/mole   abundance: 10.000 %
+         --->  Isotope:  Mg26   Z = 12   N =  26   A =  25.98 g/mole   abundance: 11.010 %
+          ElmMassFraction:   2.09 %  ElmAbundance   1.81 % 
+
+
+ Material:    Rock2    density:  2.412 g/cm3   RadL:  10.543 cm   Nucl.Int.Length:  40.611 cm 
+                       Imean: 132.009 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Oxygen (O)   Z =  8.0   N =    16   A = 16.000 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  48.01 %  ElmAbundance  63.25 % 
+
+   --->  Element: Silicon (Si)   Z = 14.0   N =    28   A = 28.085 g/mole
+         --->  Isotope:  Si28   Z = 14   N =  28   A =  27.98 g/mole   abundance: 92.230 %
+         --->  Isotope:  Si29   Z = 14   N =  29   A =  28.98 g/mole   abundance:  4.683 %
+         --->  Isotope:  Si30   Z = 14   N =  30   A =  29.97 g/mole   abundance:  3.087 %
+          ElmMassFraction:  27.72 %  ElmAbundance  20.80 % 
+
+   --->  Element: Aluminium (Al)   Z = 13.0   N =    27   A = 26.982 g/mole
+         --->  Isotope:  Al27   Z = 13   N =  27   A =  26.98 g/mole   abundance: 100.000 %
+          ElmMassFraction:   8.13 %  ElmAbundance   6.35 % 
+
+   --->  Element: Iron (Fe)   Z = 26.0   N =    56   A = 55.845 g/mole
+         --->  Isotope:  Fe54   Z = 26   N =  54   A =  53.94 g/mole   abundance:  5.845 %
+         --->  Isotope:  Fe56   Z = 26   N =  56   A =  55.93 g/mole   abundance: 91.754 %
+         --->  Isotope:  Fe57   Z = 26   N =  57   A =  56.94 g/mole   abundance:  2.119 %
+         --->  Isotope:  Fe58   Z = 26   N =  58   A =  57.93 g/mole   abundance:  0.282 %
+          ElmMassFraction:   5.00 %  ElmAbundance   1.89 % 
+
+   --->  Element: Calcium (Ca)   Z = 20.0   N =    40   A = 40.078 g/mole
+         --->  Isotope:  Ca40   Z = 20   N =  40   A =  39.96 g/mole   abundance: 96.941 %
+         --->  Isotope:  Ca42   Z = 20   N =  42   A =  41.96 g/mole   abundance:  0.647 %
+         --->  Isotope:  Ca43   Z = 20   N =  43   A =  42.96 g/mole   abundance:  0.135 %
+         --->  Isotope:  Ca44   Z = 20   N =  44   A =  43.96 g/mole   abundance:  2.086 %
+         --->  Isotope:  Ca46   Z = 20   N =  46   A =  45.95 g/mole   abundance:  0.004 %
+         --->  Isotope:  Ca48   Z = 20   N =  48   A =  47.95 g/mole   abundance:  0.187 %
+          ElmMassFraction:   3.63 %  ElmAbundance   1.91 % 
+
+   --->  Element: Sodium (Na)   Z = 11.0   N =    23   A = 22.990 g/mole
+         --->  Isotope:  Na23   Z = 11   N =  23   A =  22.99 g/mole   abundance: 100.000 %
+          ElmMassFraction:   2.83 %  ElmAbundance   2.59 % 
+
+   --->  Element: Potasium (K)   Z = 19.0   N =    39   A = 39.098 g/mole
+         --->  Isotope:   K39   Z = 19   N =  39   A =  38.96 g/mole   abundance: 93.258 %
+         --->  Isotope:   K40   Z = 19   N =  40   A =  39.96 g/mole   abundance:  0.012 %
+         --->  Isotope:   K41   Z = 19   N =  41   A =  40.96 g/mole   abundance:  6.730 %
+          ElmMassFraction:   2.59 %  ElmAbundance   1.40 % 
+
+   --->  Element: Magnesium (Mg)   Z = 12.0   N =    24   A = 24.305 g/mole
+         --->  Isotope:  Mg24   Z = 12   N =  24   A =  23.98 g/mole   abundance: 78.990 %
+         --->  Isotope:  Mg25   Z = 12   N =  25   A =  24.99 g/mole   abundance: 10.000 %
+         --->  Isotope:  Mg26   Z = 12   N =  26   A =  25.98 g/mole   abundance: 11.010 %
+          ElmMassFraction:   2.09 %  ElmAbundance   1.81 % 
+
+
+
+Checking overlaps for volume HillTop ... OK! 
+Checking overlaps for volume HillBottom ... OK! 
+B4DetectorConstruction:  c1x=-50   c1z=-2  cameraSizeZ=100
+B4DetectorConstruction:  xxxcam1=-49400   zzzcam1=19000
+B4DetectorConstruction:  cameraSize X 1000  y 5000  Z 100
+Checking overlaps for volume Camera ... OK! 
+Checking overlaps for volume RefPlane ... OK! 
+Checking overlaps for volume Tray ... OK! 
+Checking overlaps for volume Tray ... OK! 
+Checking overlaps for volume Cairn ... OK! 
+Checking overlaps for volume Chamber ... OK! 
+Checking overlaps for volume Passage ... OK! 
+
+ FTFP_BERT : new threshold between BERT and FTFP is over the interval 
+ for pions :   3 to 12 GeV
+ for kaons :   3 to 12 GeV
+ for proton :  3 to 12 GeV
+ for neutron : 3 to 12 GeV
+
+### Adding tracking cuts for neutron  TimeCut(ns)= 10000  KinEnergyCut(MeV)= 0
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Current available graphics systems are:
+ASCIITree (ATree)
+DAWNFILE (DAWNFILE)
+G4HepRep (HepRepXML)
+G4HepRepFile (HepRepFile)
+RayTracer (RayTracer)
+VRML1FILE (VRML1FILE)
+VRML2FILE (VRML2FILE)
+gMocrenFile (gMocrenFile)
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByAttribute
+  drawByCharge
+  drawByOriginVolume
+  drawByParticleID
+  drawByEncounteredVolume
+
+Registered filter factories:
+  attributeFilter
+  chargeFilter
+  originVolumeFilter
+  particleFilter
+  encounteredVolumeFilter
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+"/vis/list" to see available colours.
+sk-debug:  batch mode
+  newValue (begin): returnMuons 1
+  CRY Input Action (sk)...
+  newValue: returnMuons 1
+  newValue (begin): returnNeutrons 0
+  CRY Input Action (sk)...
+  newValue: returnNeutrons 0
+  newValue (begin): returnProtons 0
+  CRY Input Action (sk)...
+  newValue: returnProtons 0
+  newValue (begin): returnGammas 0
+  CRY Input Action (sk)...
+  newValue: returnGammas 0
+  newValue (begin): returnPions 0
+  CRY Input Action (sk)...
+  newValue: returnPions 0
+  newValue (begin): returnKaons 0
+  CRY Input Action (sk)...
+  newValue: returnKaons 0
+  newValue (begin): date 9-02-2016
+  CRY Input Action (sk)...
+  newValue: date 9-02-2016
+  newValue (begin): latitude 33.6
+  CRY Input Action (sk)...
+  newValue: latitude 33.6
+  newValue (begin): altitude 0
+  CRY Input Action (sk)...
+  newValue: altitude 0
+  newValue (begin): subboxLength 10
+  CRY Input Action (sk)...
+  newValue: subboxLength 10
+  newValue (begin): 
+  CRY  Update Action (sk)...
+CRY::PrimaryGenratorAction(Update)  dataDIR=/lustre/work/perez90/hep/cry/cry_v1.7/data
+ beam X, Y, Z shift: -50  0  -4.5  
+G4CRY momentum cut:  2000 MeV.
+PrimaryGeneratorAction::UpdateCRY:   CRYSetup...
+CRYSetup::CRYSetup begins,  configData=returnMuons 1 returnNeutrons 0 returnProtons 0 returnGammas 0 returnPions 0 returnKaons 0 date 9-02-2016 latitude 33.6 altitude 0 subboxLength 10 
+     dataDir=/lustre/work/perez90/hep/cry/cry_v1.7/data
+CRY::CRYSetup: Setting returnMuons to 1
+CRY::CRYSetup: Setting returnNeutrons to 0
+CRY::CRYSetup: Setting returnProtons to 0
+CRY::CRYSetup: Setting returnGammas to 0
+CRY::CRYSetup: Setting returnPions to 0
+CRY::CRYSetup: Setting returnKaons to 0
+CRY::CRYSetup: Setting date to 9-02-2016 (month-day-year)
+CRY::CRYSetup: Setting latitude to 33.6
+CRY::CRYSetup: Setting altitude to 0
+CRY::CRYSetup: Setting subboxLength to 10
+CRYGenerator::CRYGenerator: 
+     _thetaMin 0      _thetaMax 0.349056
+     _phiMin -0.541036      _phiMax 0.541036
+     _kinMin 2000
+   wMin2 -0.34201  wMax2 1.22465e-16  phiMin2 2.60056  phiMax2 3.68263
+   timeScalingDueToPhiCut 6.79886
+CRY::CRYGenerator:  _boxSize=10
+
+phot:   for  gamma    SubType= 12  BuildTable= 0
+      LambdaPrime table from 200 keV to 100 TeV in 61 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric :  Emin=        0 eV    Emax=      100 TeV   AngularGenSauterGavrila  FluoActive
+
+compt:   for  gamma    SubType= 13  BuildTable= 1
+      Lambda table from 100 eV  to 1 MeV, 7 bins per decade, spline: 1
+      LambdaPrime table from 1 MeV to 100 TeV in 56 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       Klein-Nishina :  Emin=        0 eV    Emax=      100 TeV
+
+conv:   for  gamma    SubType= 14  BuildTable= 1
+      Lambda table from 1.022 MeV to 100 TeV, 18 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        BetheHeitler :  Emin=        0 eV    Emax=       80 GeV
+     BetheHeitlerLPM :  Emin=       80 GeV   Emax=      100 TeV
+
+Rayl:   for  gamma    SubType= 11  BuildTable= 1
+      Lambda table from 100 eV  to 100 keV, 7 bins per decade, spline: 0
+      LambdaPrime table from 100 keV to 100 TeV in 63 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh :  Emin=        0 eV    Emax=      100 TeV   CullenGenerator
+
+msc:   for e-    SubType= 10
+      RangeFactor= 0.04, stepLimitType: 1, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 MeV  Table with 42 bins Emin=    100 eV    Emax=    100 MeV
+        WentzelVIUni :  Emin=      100 MeV   Emax=      100 TeV  Table with 42 bins Emin=    100 MeV   Emax=    100 TeV
+
+eIoni:   for  e-    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha :  Emin=        0 eV    Emax=      100 TeV
+
+eBrem:   for  e-    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB :  Emin=        0 eV    Emax=        1 GeV   DipBustGen
+            eBremLPM :  Emin=        1 GeV   Emax=      100 TeV   DipBustGen
+
+CoulombScat:   for  e-, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from 100 MeV to 100 TeV, 7 bins per decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=      100 MeV   Emax=      100 TeV
+
+msc:   for e+    SubType= 10
+      RangeFactor= 0.04, stepLimitType: 1, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 MeV  Table with 42 bins Emin=    100 eV    Emax=    100 MeV
+        WentzelVIUni :  Emin=      100 MeV   Emax=      100 TeV  Table with 42 bins Emin=    100 MeV   Emax=    100 TeV
+
+eIoni:   for  e+    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha :  Emin=        0 eV    Emax=      100 TeV
+
+eBrem:   for  e+    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB :  Emin=        0 eV    Emax=        1 GeV   DipBustGen
+            eBremLPM :  Emin=        1 GeV   Emax=      100 TeV   DipBustGen
+
+annihil:   for  e+, integral: 1     SubType= 5  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg :  Emin=        0 eV    Emax=      100 TeV
+
+CoulombScat:   for  e+, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from 100 MeV to 100 TeV, 7 bins per decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=      100 MeV   Emax=      100 TeV
+
+msc:   for proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  proton    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=        2 MeV
+          BetheBloch :  Emin=        2 MeV   Emax=      100 TeV
+
+hBrems:   for  proton    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=      100 TeV
+
+hPairProd:   for  proton    SubType= 4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=      100 TeV
+
+CoulombScat:   for  proton, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from threshold  to 100 TeV, 7 bins per decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=      100 TeV
+
+msc:   for GenericIon    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV
+
+ionIoni:   for  GenericIon    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.02
+      Stopping Power data for 17 ion/material pairs 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon :  Emin=        0 eV    Emax=        2 MeV
+          BetheBloch :  Emin=        2 MeV   Emax=      100 TeV
+
+msc:   for alpha    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+ionIoni:   for  alpha    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon :  Emin=        0 eV    Emax=   7.9452 MeV
+          BetheBloch :  Emin=   7.9452 MeV   Emax=      100 TeV
+
+msc:   for anti_proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  anti_proton    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=        2 MeV
+          BetheBloch :  Emin=        2 MeV   Emax=      100 TeV
+
+hBrems:   for  anti_proton    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=      100 TeV
+
+hPairProd:   for  anti_proton    SubType= 4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=      100 TeV
+
+CoulombScat:   for  anti_proton, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from threshold  to 100 TeV, 7 bins per decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=      100 TeV
+
+msc:   for kaon+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  kaon+    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  1.05231 MeV
+          BetheBloch :  Emin=  1.05231 MeV   Emax=      100 TeV
+
+hBrems:   for  kaon+    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=      100 TeV
+
+hPairProd:   for  kaon+    SubType= 4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=      100 TeV
+
+CoulombScat:   for  kaon+, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from threshold  to 100 TeV, 7 bins per decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=      100 TeV
+
+msc:   for kaon-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  kaon-    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  1.05231 MeV
+          BetheBloch :  Emin=  1.05231 MeV   Emax=      100 TeV
+
+hBrems:   for  kaon-    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=      100 TeV
+
+hPairProd:   for  kaon-    SubType= 4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=      100 TeV
+
+CoulombScat:   for  kaon-, integral: 1     SubType= 1  BuildTable= 1
+      Used Lambda table of kaon+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=      100 TeV
+
+msc:   for mu+    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 0, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+muIoni:   for  mu+    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=      200 keV
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV
+        MuBetheBloch :  Emin=        1 GeV   Emax=      100 TeV
+
+muBrems:   for  mu+    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=      100 TeV
+
+muPairProd:   for  mu+    SubType= 4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      Sampling table 21x1001; from 1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=      100 TeV
+
+CoulombScat:   for  mu+, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from threshold  to 100 TeV, 7 bins per decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=      100 TeV
+
+msc:   for mu-    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 0, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+muIoni:   for  mu-    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=      200 keV
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV
+        MuBetheBloch :  Emin=        1 GeV   Emax=      100 TeV
+
+muBrems:   for  mu-    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=      100 TeV
+
+muPairProd:   for  mu-    SubType= 4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      Sampling table 21x1001; from 1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=      100 TeV
+
+CoulombScat:   for  mu-, integral: 1     SubType= 1  BuildTable= 1
+      Used Lambda table of mu+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=      100 TeV
+
+msc:   for pi+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  pi+    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  297.505 keV
+          BetheBloch :  Emin=  297.505 keV   Emax=      100 TeV
+
+hBrems:   for  pi+    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=      100 TeV
+
+hPairProd:   for  pi+    SubType= 4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=      100 TeV
+
+CoulombScat:   for  pi+, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from threshold  to 100 TeV, 7 bins per decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=      100 TeV
+
+msc:   for pi-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=      100 TeV  Table with 84 bins Emin=    100 eV    Emax=    100 TeV
+
+hIoni:   for  pi-    SubType= 2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  297.505 keV
+          BetheBloch :  Emin=  297.505 keV   Emax=      100 TeV
+
+hBrems:   for  pi-    SubType= 3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=      100 TeV
+
+hPairProd:   for  pi-    SubType= 4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins per decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=      100 TeV
+
+CoulombScat:   for  pi-, integral: 1     SubType= 1  BuildTable= 1
+      Used Lambda table of pi+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=      100 TeV
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+
+---------------------------------------------------
+                           Hadronic Processes for neutron
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronElasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: neutronInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 12 GeV
+     Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: nCapture
+        Model:               nRadCapture: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaCaptureXS: 0 eV  ---> 100 TeV
+
+  Process: nKiller
+
+---------------------------------------------------
+                           Hadronic Processes for GenericIon
+
+  Process: ionInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 4 GeV/n
+        Model:                      FTFP: 2 GeV/n ---> 100 TeV/n
+     Cr_sctns: Glauber-Gribov nucleus nucleus: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for He3
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns: Glauber-Gribov nucleus nucleus: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: He3Inelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 4 GeV/n
+        Model:                      FTFP: 2 GeV/n ---> 100 TeV/n
+     Cr_sctns: Glauber-Gribov nucleus nucleus: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for alpha
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: alphaInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 4 GeV/n
+        Model:                      FTFP: 2 GeV/n ---> 100 TeV/n
+     Cr_sctns: Glauber-Gribov nucleus nucleus: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for anti_He3
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: anti_He3Inelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_alpha
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: anti_alphaInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_deuteron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: anti_deuteronInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_neutron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: anti_neutronInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for anti_proton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: anti_protonInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_triton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: anti_tritonInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for deuteron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: dInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 4 GeV/n
+        Model:                      FTFP: 2 GeV/n ---> 100 TeV/n
+     Cr_sctns: Glauber-Gribov nucleus nucleus: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for e+
+
+  Process: positronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for e-
+
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for gamma
+
+  Process: photonNuclear
+        Model:            BertiniCascade: 0 eV  ---> 3.5 GeV
+        Model:           TheoFSGenerator: 3 GeV ---> 100 TeV
+     Cr_sctns:            PhotoNuclearXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for kaon+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: kaon+Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 12 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:  ChipsKaonPlusInelasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for kaon-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: kaon-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 12 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns: ChipsKaonMinusInelasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for lambda
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: lambdaInelastic
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+        Model:                      FTFP: 2 GeV ---> 100 TeV
+     Cr_sctns:   ChipsHyperonInelasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for mu+
+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for mu-
+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+
+  Process: muMinusCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for pi+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 1.0001 GeV
+        Model:           hElasticGlauber: 1 GeV ---> 100 TeV
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: pi+Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 12 GeV
+     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV
+                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections 
+                           below 91 GeV, Glauber-Gribov above 
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for pi-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 1.0001 GeV
+        Model:           hElasticGlauber: 1 GeV ---> 100 TeV
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: pi-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 12 GeV
+     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV
+                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections 
+                           below 91 GeV, Glauber-Gribov above 
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for proton
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:      ChipsProtonElasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: protonInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 12 GeV
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for triton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: tInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 4 GeV/n
+        Model:                      FTFP: 2 GeV/n ---> 100 TeV/n
+     Cr_sctns: Glauber-Gribov nucleus nucleus: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+================================================================
+=======================================================================
+======       Pre-compound/De-excitation Physics Parameters     ========
+=======================================================================
+Type of pre-compound inverse x-section              3
+Pre-compound model active                           1
+Pre-compound low energy (MeV)                       0.1
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation
+Number of de-excitation channels                    8
+Min excitation energy (keV)                         0.01
+Min energy per nucleon for multifragmentation (MeV) 1e+05
+Level density (1/MeV)                               0.1
+Time limit for long lived isomeres (ns)             1e+12
+Internal e- conversion flag                         1
+Store e- internal conversion data                   0
+Electron internal conversion ID                     2
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+=======================================================================
+### Run 0 starts.
+--> Event 0 starts.
+--> Event 5000 starts.
+--> Event 10000 starts.
+--> Event 15000 starts.
+--> Event 20000 starts.
+--> Event 25000 starts.
+--> Event 30000 starts.
+--> Event 35000 starts.
+--> Event 40000 starts.
+--> Event 45000 starts.
+--> Event 50000 starts.
+--> Event 55000 starts.
+--> Event 60000 starts.
+--> Event 65000 starts.
+--> Event 70000 starts.
+--> Event 75000 starts.
+--> Event 80000 starts.
+--> Event 85000 starts.
+--> Event 90000 starts.
+--> Event 95000 starts.
+--> Event 100000 starts.
+--> Event 105000 starts.
+--> Event 110000 starts.
+--> Event 115000 starts.
+--> Event 120000 starts.
+--> Event 125000 starts.
+--> Event 130000 starts.
+--> Event 135000 starts.
+--> Event 140000 starts.
+--> Event 145000 starts.
+--> Event 150000 starts.
+--> Event 155000 starts.
+--> Event 160000 starts.
+--> Event 165000 starts.
+--> Event 170000 starts.
+--> Event 175000 starts.
+--> Event 180000 starts.
+--> Event 185000 starts.
+--> Event 190000 starts.
+--> Event 195000 starts.
+--> Event 200000 starts.
+--> Event 205000 starts.
+--> Event 210000 starts.
+--> Event 215000 starts.
+--> Event 220000 starts.
+--> Event 225000 starts.
+--> Event 230000 starts.
+--> Event 235000 starts.
+--> Event 240000 starts.
+--> Event 245000 starts.
+--> Event 250000 starts.
+--> Event 255000 starts.
+--> Event 260000 starts.
+--> Event 265000 starts.
+--> Event 270000 starts.
+--> Event 275000 starts.
+--> Event 280000 starts.
+--> Event 285000 starts.
+--> Event 290000 starts.
+--> Event 295000 starts.
+--> Event 300000 starts.
+--> Event 305000 starts.
+--> Event 310000 starts.
+--> Event 315000 starts.
+--> Event 320000 starts.
+--> Event 325000 starts.
+--> Event 330000 starts.
+--> Event 335000 starts.
+--> Event 340000 starts.
+--> Event 345000 starts.
+--> Event 350000 starts.
+--> Event 355000 starts.
+--> Event 360000 starts.
+--> Event 365000 starts.
+--> Event 370000 starts.
+--> Event 375000 starts.
+--> Event 380000 starts.
+--> Event 385000 starts.
+--> Event 390000 starts.
+--> Event 395000 starts.
+--> Event 400000 starts.
+--> Event 405000 starts.
+--> Event 410000 starts.
+--> Event 415000 starts.
+--> Event 420000 starts.
+--> Event 425000 starts.
+--> Event 430000 starts.
+--> Event 435000 starts.
+--> Event 440000 starts.
+--> Event 445000 starts.
+--> Event 450000 starts.
+--> Event 455000 starts.
+--> Event 460000 starts.
+--> Event 465000 starts.
+--> Event 470000 starts.
+--> Event 475000 starts.
+--> Event 480000 starts.
+--> Event 485000 starts.
+--> Event 490000 starts.
+--> Event 495000 starts.
+--> Event 500000 starts.
+--> Event 505000 starts.
+--> Event 510000 starts.
+--> Event 515000 starts.
+--> Event 520000 starts.
+--> Event 525000 starts.
+--> Event 530000 starts.
+--> Event 535000 starts.
+--> Event 540000 starts.
+--> Event 545000 starts.
+--> Event 550000 starts.
+--> Event 555000 starts.
+--> Event 560000 starts.
+--> Event 565000 starts.
+--> Event 570000 starts.
+--> Event 575000 starts.
+--> Event 580000 starts.
+--> Event 585000 starts.
+--> Event 590000 starts.
+--> Event 595000 starts.
+--> Event 600000 starts.
+--> Event 605000 starts.
+--> Event 610000 starts.
+--> Event 615000 starts.
+--> Event 620000 starts.
+--> Event 625000 starts.
+--> Event 630000 starts.
+--> Event 635000 starts.
+--> Event 640000 starts.
+--> Event 645000 starts.
+--> Event 650000 starts.
+--> Event 655000 starts.
+--> Event 660000 starts.
+--> Event 665000 starts.
+--> Event 670000 starts.
+--> Event 675000 starts.
+--> Event 680000 starts.
+--> Event 685000 starts.
+--> Event 690000 starts.
+--> Event 695000 starts.
+--> Event 700000 starts.
+--> Event 705000 starts.
+--> Event 710000 starts.
+--> Event 715000 starts.
+--> Event 720000 starts.
+--> Event 725000 starts.
+--> Event 730000 starts.
+--> Event 735000 starts.
+--> Event 740000 starts.
+--> Event 745000 starts.
+--> Event 750000 starts.
+--> Event 755000 starts.
+--> Event 760000 starts.
+--> Event 765000 starts.
+--> Event 770000 starts.
+--> Event 775000 starts.
+--> Event 780000 starts.
+--> Event 785000 starts.
+--> Event 790000 starts.
+--> Event 795000 starts.
+--> Event 800000 starts.
+--> Event 805000 starts.
+--> Event 810000 starts.
+--> Event 815000 starts.
+--> Event 820000 starts.
+--> Event 825000 starts.
+--> Event 830000 starts.
+--> Event 835000 starts.
+--> Event 840000 starts.
+--> Event 845000 starts.
+--> Event 850000 starts.
+--> Event 855000 starts.
+--> Event 860000 starts.
+--> Event 865000 starts.
+--> Event 870000 starts.
+--> Event 875000 starts.
+--> Event 880000 starts.
+--> Event 885000 starts.
+--> Event 890000 starts.
+--> Event 895000 starts.
+--> Event 900000 starts.
+--> Event 905000 starts.
+--> Event 910000 starts.
+--> Event 915000 starts.
+--> Event 920000 starts.
+--> Event 925000 starts.
+--> Event 930000 starts.
+--> Event 935000 starts.
+--> Event 940000 starts.
+--> Event 945000 starts.
+--> Event 950000 starts.
+--> Event 955000 starts.
+--> Event 960000 starts.
+--> Event 965000 starts.
+--> Event 970000 starts.
+--> Event 975000 starts.
+--> Event 980000 starts.
+--> Event 985000 starts.
+--> Event 990000 starts.
+--> Event 995000 starts.
+--> Event 1000000 starts.
+--> Event 1005000 starts.
+--> Event 1010000 starts.
+--> Event 1015000 starts.
+--> Event 1020000 starts.
+--> Event 1025000 starts.
+--> Event 1030000 starts.
+--> Event 1035000 starts.
+--> Event 1040000 starts.
+--> Event 1045000 starts.
+--> Event 1050000 starts.
+--> Event 1055000 starts.
+--> Event 1060000 starts.
+--> Event 1065000 starts.
+--> Event 1070000 starts.
+--> Event 1075000 starts.
+--> Event 1080000 starts.
+--> Event 1085000 starts.
+--> Event 1090000 starts.
+--> Event 1095000 starts.
+--> Event 1100000 starts.
+--> Event 1105000 starts.
+--> Event 1110000 starts.
+--> Event 1115000 starts.
+--> Event 1120000 starts.
+--> Event 1125000 starts.
+--> Event 1130000 starts.
+--> Event 1135000 starts.
+--> Event 1140000 starts.
+--> Event 1145000 starts.
+--> Event 1150000 starts.
+--> Event 1155000 starts.
+--> Event 1160000 starts.
+--> Event 1165000 starts.
+--> Event 1170000 starts.
+--> Event 1175000 starts.
+--> Event 1180000 starts.
+--> Event 1185000 starts.
+--> Event 1190000 starts.
+--> Event 1195000 starts.
+--> Event 1200000 starts.
+--> Event 1205000 starts.
+--> Event 1210000 starts.
+--> Event 1215000 starts.
+--> Event 1220000 starts.
+--> Event 1225000 starts.
+--> Event 1230000 starts.
+--> Event 1235000 starts.
+--> Event 1240000 starts.
+--> Event 1245000 starts.
+--> Event 1250000 starts.
+--> Event 1255000 starts.
+--> Event 1260000 starts.
+--> Event 1265000 starts.
+--> Event 1270000 starts.
+--> Event 1275000 starts.
+--> Event 1280000 starts.
+--> Event 1285000 starts.
+--> Event 1290000 starts.
+--> Event 1295000 starts.
+--> Event 1300000 starts.
+--> Event 1305000 starts.
+--> Event 1310000 starts.
+--> Event 1315000 starts.
+--> Event 1320000 starts.
+--> Event 1325000 starts.
+--> Event 1330000 starts.
+--> Event 1335000 starts.
+--> Event 1340000 starts.
+--> Event 1345000 starts.
+--> Event 1350000 starts.
+--> Event 1355000 starts.
+--> Event 1360000 starts.
+--> Event 1365000 starts.
+--> Event 1370000 starts.
+--> Event 1375000 starts.
+--> Event 1380000 starts.
+--> Event 1385000 starts.
+--> Event 1390000 starts.
+--> Event 1395000 starts.
+--> Event 1400000 starts.
+--> Event 1405000 starts.
+--> Event 1410000 starts.
+--> Event 1415000 starts.
+--> Event 1420000 starts.
+--> Event 1425000 starts.
+--> Event 1430000 starts.
+--> Event 1435000 starts.
+--> Event 1440000 starts.
+--> Event 1445000 starts.
+--> Event 1450000 starts.
+--> Event 1455000 starts.
+--> Event 1460000 starts.
+--> Event 1465000 starts.
+--> Event 1470000 starts.
+--> Event 1475000 starts.
+--> Event 1480000 starts.
+--> Event 1485000 starts.
+--> Event 1490000 starts.
+--> Event 1495000 starts.
+--> Event 1500000 starts.
+--> Event 1505000 starts.
+--> Event 1510000 starts.
+--> Event 1515000 starts.
+--> Event 1520000 starts.
+--> Event 1525000 starts.
+--> Event 1530000 starts.
+--> Event 1535000 starts.
+--> Event 1540000 starts.
+--> Event 1545000 starts.
+--> Event 1550000 starts.
+--> Event 1555000 starts.
+--> Event 1560000 starts.
+--> Event 1565000 starts.
+--> Event 1570000 starts.
+--> Event 1575000 starts.
+--> Event 1580000 starts.
+--> Event 1585000 starts.
+--> Event 1590000 starts.
+--> Event 1595000 starts.
+--> Event 1600000 starts.
+--> Event 1605000 starts.
+--> Event 1610000 starts.
+--> Event 1615000 starts.
+--> Event 1620000 starts.
+--> Event 1625000 starts.
+--> Event 1630000 starts.
+--> Event 1635000 starts.
+--> Event 1640000 starts.
+--> Event 1645000 starts.
+--> Event 1650000 starts.
+--> Event 1655000 starts.
+--> Event 1660000 starts.
+--> Event 1665000 starts.
+--> Event 1670000 starts.
+--> Event 1675000 starts.
+--> Event 1680000 starts.
+--> Event 1685000 starts.
+--> Event 1690000 starts.
+--> Event 1695000 starts.
+--> Event 1700000 starts.
+--> Event 1705000 starts.
+--> Event 1710000 starts.
+--> Event 1715000 starts.
+--> Event 1720000 starts.
+--> Event 1725000 starts.
+--> Event 1730000 starts.
+--> Event 1735000 starts.
+--> Event 1740000 starts.
+--> Event 1745000 starts.
+--> Event 1750000 starts.
+--> Event 1755000 starts.
+--> Event 1760000 starts.
+--> Event 1765000 starts.
+--> Event 1770000 starts.
+--> Event 1775000 starts.
+--> Event 1780000 starts.
+--> Event 1785000 starts.
+--> Event 1790000 starts.
+--> Event 1795000 starts.
+--> Event 1800000 starts.
+--> Event 1805000 starts.
+--> Event 1810000 starts.
+--> Event 1815000 starts.
+--> Event 1820000 starts.
+--> Event 1825000 starts.
+--> Event 1830000 starts.
+--> Event 1835000 starts.
+--> Event 1840000 starts.
+--> Event 1845000 starts.
+--> Event 1850000 starts.
+--> Event 1855000 starts.
+--> Event 1860000 starts.
+--> Event 1865000 starts.
+--> Event 1870000 starts.
+--> Event 1875000 starts.
+--> Event 1880000 starts.
+--> Event 1885000 starts.
+--> Event 1890000 starts.
+--> Event 1895000 starts.
+--> Event 1900000 starts.
+--> Event 1905000 starts.
+--> Event 1910000 starts.
+--> Event 1915000 starts.
+--> Event 1920000 starts.
+--> Event 1925000 starts.
+--> Event 1930000 starts.
+--> Event 1935000 starts.
+--> Event 1940000 starts.
+--> Event 1945000 starts.
+--> Event 1950000 starts.
+--> Event 1955000 starts.
+--> Event 1960000 starts.
+--> Event 1965000 starts.
+--> Event 1970000 starts.
+--> Event 1975000 starts.
+--> Event 1980000 starts.
+--> Event 1985000 starts.
+--> Event 1990000 starts.
+--> Event 1995000 starts.
+Job termination...
+MuonTree  endjob...
+
+--------- Ranecu engine status ---------
+ Initial seed (index) = 0
+ Current couple of seeds = 106379186, 1165796184
+----------------------------------------
+Graphics systems deleted.
+Visualization Manager deleting...
+deleting MuonTree...
+deleting PrimaryGeneratorAction...
+Total time simulated: 104851 seconds
+   
+deleting B4aEventAction...
+ending ICSIM batch job.
+/home/skunori/MuonX/g4sim/ICSIMtest/icsim_02_02/hpccBatch/BJOBS/bj016
+   
